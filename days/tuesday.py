@@ -1,3 +1,9 @@
+"""
+Notes:
+    ==> Whole week full body every day.
+    ==> Anterior Push focused day.
+"""
+
 day_data = {
     "warmup": {
         "exercises": [

@@ -1,3 +1,9 @@
+"""
+Notes:
+    ==> Whole week full body every day.
+    ==> Posterior Pull focused day.
+"""
+
 day_data = {
     "warmup": {
         "exercises": [

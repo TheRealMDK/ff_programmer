@@ -1,3 +1,9 @@
+"""
+Notes:
+    ==> Whole week full body every day.
+    ==> Active rest day i.e. Hyrox.
+"""
+
 day_data = {
     "warmup": {
         "exercises": [

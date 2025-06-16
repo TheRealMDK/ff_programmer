@@ -3,8 +3,6 @@ from docxtpl import DocxTemplate
 from context_data import context_data
 from export import export_to_json, export_to_yaml, export_to_excel
 
-outputFileName = "20250623_20250627.docx"
-
 # Set up argument parser
 parser = argparse.ArgumentParser(
     description="Generate weekly workout plan and optionally export it."
@@ -14,6 +12,13 @@ parser.add_argument(
     "--export",
     choices=["json", "yaml", "excel"],
     help="Export context to the specified format",
+)
+
+parser.add_argument(
+    "-o",
+    "--output",
+    type=str,
+    help="Specify output file name (without extension)",
 )
 
 args = parser.parse_args()
@@ -38,6 +43,11 @@ for day in context:
 doc.render(context)
 
 # Save the result
+if args.output:
+    outputFileName = f"{input('provide output file name without extension:\n-> ')}.docx"
+else:
+    outputFileName = "wip.docx"
+
 doc.save(outputFileName)
 
 # Export if flag is provided
