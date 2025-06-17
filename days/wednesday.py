@@ -9,51 +9,41 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "emom",
-                    "value": "12min",
-                    "split": {
-                        "working_time": 40,
-                        "rest_time": 20,
-                    },
+                    "name": "3 Rounds of",
                 },
                 "movements": [
-                    {"name": "squat", "amount": 10, "si_unit": "cals"},
-                    {"name": "lunge", "amount": 10, "si_unit": "cals"},
-                    {"name": "Glute bridge", "amount": 10, "si_unit": "cals"},
+                    {
+                        "name": "DB glute bridge static hold (I.C.W)",
+                        "amount": 30,
+                        "si_unit": "sec",
+                    },
+                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
+                    {
+                        "name": "Kneeling db shoulder press (I.C.W)",
+                        "amount": 10,
+                        "si_unit": "p/s",
+                    },
                 ],
                 "duration": 12,
             },
             {
                 "type": {
-                    "name": "",
-                    "value": "",
-                    "split": {
-                        "working_time": 40,
-                        "rest_time": 20,
-                    },
+                    "name": "3 Rounds of",
                 },
                 "movements": [
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
-                ],
-                "duration": 0,
-            },
-            {
-                "type": {
-                    "name": "",
-                    "value": "",
-                    "split": {
-                        "working_time": 40,
-                        "rest_time": 20,
+                    {
+                        "name": "DB glute bridge static hold (I.C.W)",
+                        "amount": 30,
+                        "si_unit": "sec",
                     },
-                },
-                "movements": [
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
+                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
+                    {
+                        "name": "Kneeling db shoulder press (I.C.W)",
+                        "amount": 10,
+                        "si_unit": "p/s",
+                    },
                 ],
-                "duration": 0,
+                "duration": 12,
             },
         ]
     },
@@ -61,51 +51,41 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "emom",
-                    "value": "12min",
-                    "split": {
-                        "working_time": 40,
-                        "rest_time": 20,
-                    },
+                    "name": "3 Rounds of",
                 },
                 "movements": [
-                    {"name": "squat", "amount": 10, "si_unit": "cals"},
-                    {"name": "lunge", "amount": 10, "si_unit": "cals"},
-                    {"name": "Glute bridge", "amount": 10, "si_unit": "cals"},
+                    {
+                        "name": "DB glute bridge static hold (I.C.W)",
+                        "amount": 30,
+                        "si_unit": "sec",
+                    },
+                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
+                    {
+                        "name": "Kneeling db shoulder press (I.C.W)",
+                        "amount": 10,
+                        "si_unit": "p/s",
+                    },
                 ],
                 "duration": 12,
             },
             {
                 "type": {
-                    "name": "",
-                    "value": "",
-                    "split": {
-                        "working_time": 40,
-                        "rest_time": 20,
-                    },
+                    "name": "3 Rounds of",
                 },
                 "movements": [
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
-                ],
-                "duration": 0,
-            },
-            {
-                "type": {
-                    "name": "",
-                    "value": "",
-                    "split": {
-                        "working_time": 40,
-                        "rest_time": 20,
+                    {
+                        "name": "DB glute bridge static hold (I.C.W)",
+                        "amount": 30,
+                        "si_unit": "sec",
                     },
-                },
-                "movements": [
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
-                    {"name": "", "amount": 0, "si_unit": ""},
+                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
+                    {
+                        "name": "Kneeling db shoulder press (I.C.W)",
+                        "amount": 10,
+                        "si_unit": "p/s",
+                    },
                 ],
-                "duration": 0,
+                "duration": 12,
             },
         ]
     },
