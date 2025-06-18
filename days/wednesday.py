@@ -9,41 +9,29 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "3 Rounds of",
+                    "name": "EMOM",
+                    "value": "9min",
+                    "split": {
+                        "working_time": "40",
+                        "rest_time": "20",
+                    },
                 },
                 "movements": [
                     {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
+                        "name": "Ski",
+                        "amount": 1,
+                        "si_unit": "min",
                     },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
                     {
-                        "name": "Kneeling db shoulder press (I.C.W)",
+                        "name": "Wall balls",
                         "amount": 10,
-                        "si_unit": "p/s",
+                    },
+                    {
+                        "name": "KB swing",
+                        "amount": 10,
                     },
                 ],
-                "duration": 12,
-            },
-            {
-                "type": {
-                    "name": "3 Rounds of",
-                },
-                "movements": [
-                    {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
-                    },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
-                    {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
-                        "si_unit": "p/s",
-                    },
-                ],
-                "duration": 12,
+                "duration": 9,
             },
         ]
     },
@@ -51,41 +39,51 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "3 Rounds of",
+                    "name": "For time",
                 },
                 "movements": [
                     {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
+                        "name": "Run",
+                        "amount": 400,
+                        "si_unit": "m",
                     },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
                     {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
-                        "si_unit": "p/s",
+                        "name": "Ski",
+                        "amount": 750,
+                        "si_unit": "m",
+                    },
+                    {
+                        "name": "Wall balls",
+                        "amount": 50,
+                    },
+                    {
+                        "name": "Bike erg",
+                        "amount": 750,
+                        "si_unit": "m",
+                    },
+                    {
+                        "name": "KB swing",
+                        "amount": 50,
+                    },
+                    {
+                        "name": "Row",
+                        "amount": 750,
+                        "si_unit": "m",
+                    },
+                    {
+                        "name": "Run",
+                        "amount": 400,
+                        "si_unit": "m",
                     },
                 ],
-                "duration": 12,
+                "duration": 36,
             },
             {
                 "type": {
-                    "name": "3 Rounds of",
+                    "name": "",
+                    "value": "**35min cap**",
                 },
-                "movements": [
-                    {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
-                    },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
-                    {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
-                        "si_unit": "p/s",
-                    },
-                ],
-                "duration": 12,
+                "duration": 0,
             },
         ]
     },

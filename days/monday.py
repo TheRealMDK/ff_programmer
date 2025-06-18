@@ -33,23 +33,6 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "E12MOM",
-                    "value": "34min",
-                    "split": {
-                        "working_time": "10min",
-                        "rest_time": "2min",
-                    },
-                },
-                "duration": 34,
-            },
-            {
-                "type": {
-                    "name": "For the first 10 minutes",
-                },
-                "duration": 0,
-            },
-            {
-                "type": {
                     "name": "AMRAP",
                     "value": "10min",
                 },
@@ -67,18 +50,12 @@ day_data = {
                         "amount": 20,
                     },
                 ],
-                "duration": 0,
+                "duration": 10,
             },
             {
                 "type": {
                     "name": "",
                     "value": "**2min rest**",
-                },
-                "duration": 0,
-            },
-            {
-                "type": {
-                    "name": "For the second 10 minutes",
                 },
                 "duration": 0,
             },
@@ -102,18 +79,12 @@ day_data = {
                         "si_unit": "cals",
                     },
                 ],
-                "duration": 0,
+                "duration": 10,
             },
             {
                 "type": {
                     "name": "",
                     "value": "**2min rest**",
-                },
-                "duration": 0,
-            },
-            {
-                "type": {
-                    "name": "For the last 10 minutes",
                 },
                 "duration": 0,
             },
@@ -137,7 +108,7 @@ day_data = {
                         "si_unit": "cals",
                     },
                 ],
-                "duration": 0,
+                "duration": 10,
             },
         ]
     },

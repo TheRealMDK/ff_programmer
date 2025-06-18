@@ -1,7 +1,7 @@
 """
 Notes:
     ==> Whole week full body every day.
-    ==> Anterior Push focused day.
+    ==> Anterior Push focused day (chest).
 """
 
 day_data = {
@@ -9,41 +9,31 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "3 Rounds of",
+                    "name": "Tabata",
                 },
                 "movements": [
                     {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
+                        "name": "Airbike",
                     },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
                     {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
-                        "si_unit": "p/s",
+                        "name": "Battle rope",
                     },
                 ],
-                "duration": 12,
+                "duration": 5,
             },
             {
                 "type": {
-                    "name": "3 Rounds of",
+                    "name": "Tabata",
                 },
                 "movements": [
                     {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
+                        "name": "Floor plate press",
                     },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
                     {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
-                        "si_unit": "p/s",
+                        "name": "KB Farmer carry static march",
                     },
                 ],
-                "duration": 12,
+                "duration": 5,
             },
         ]
     },
@@ -51,41 +41,35 @@ day_data = {
         "exercises": [
             {
                 "type": {
-                    "name": "3 Rounds of",
+                    "name": "AMRAP",
+                    "value": "35min",
                 },
                 "movements": [
                     {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
+                        "name": "Airbike",
+                        "amount": 20,
+                        "si_unit": "cal",
                     },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
                     {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
+                        "name": "Sandbag/Slamball carry",
+                        "amount": 40,
+                        "si_unit": "m",
+                    },
+                    {
+                        "name": "DB Chest press",
+                        "amount": 20,
                         "si_unit": "p/s",
                     },
-                ],
-                "duration": 12,
-            },
-            {
-                "type": {
-                    "name": "3 Rounds of",
-                },
-                "movements": [
                     {
-                        "name": "DB glute bridge static hold (I.C.W)",
-                        "amount": 30,
-                        "si_unit": "sec",
+                        "name": "Battle rope",
+                        "amount": 40,
                     },
-                    {"name": "Single kb deadlift (I.C.W)", "amount": 10, "si_unit": ""},
                     {
-                        "name": "Kneeling db shoulder press (I.C.W)",
-                        "amount": 10,
-                        "si_unit": "p/s",
+                        "name": "Abmat crunches",
+                        "amount": 20,
                     },
                 ],
-                "duration": 12,
+                "duration": 35,
             },
         ]
     },
